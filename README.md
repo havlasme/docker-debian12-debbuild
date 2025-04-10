@@ -5,14 +5,14 @@ Debian 12 "bookworm" deb Build Environment
 [![Apache-2.0 license][dockerhub-image]][dockerhub-link]
 [![Apache-2.0 license][license-image]][license-link]
 
-Debian 12 "bookworm" based image intended to be used as [Debian](https://www.debian.org/) .deb package build environment.
+[Debian 12 "bookworm"](https://hub.docker.com/_/debian) based image intended to be used as [Debian](https://www.debian.org/) .deb package build environment.
 
-This image is built automatically on each commit to the `main` branch, and published on the [Docker Hub](https://hub.docker.com/) as [`havlasme/debian12-debbuild:latest`](https://hub.docker.com/r/havlasme/debian12-debbuild).
+This image is built automatically on each commit to the `main` branch and published on the [Docker Hub](https://hub.docker.com/) as [`havlasme/debian12-debbuild:latest`](https://hub.docker.com/r/havlasme/debian12-debbuild).
 
 How to Build
 ------------
 
-To build the image locally simply run:
+To build the image locally, simply run:
 
 ```shell
 make build
